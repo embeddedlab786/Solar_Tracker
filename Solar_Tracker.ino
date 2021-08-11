@@ -37,7 +37,7 @@ pos = pos-1; // increment the 90 degree position of the horizontal motor - this 
 if(pos > 180) {pos = 180;} // reset the horizontal postion of the motor to 180 if it tries to move past this point
 if(pos < 0) {pos = 0;} // reset the horizontal position of the motor to 0 if it tries to move past this point
 myservo.write(pos); // write the starting position to the horizontal motor
-delay(100);
+delay(50);
 
 }
 
